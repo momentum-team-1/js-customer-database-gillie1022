@@ -1,18 +1,32 @@
-.surface{
-    display: flex;
-    flex-flow: wrap;
+.board {
+  display: flex;
+  flex-flow: wrap;
 }
 
-.card{
-    width: 25%;
+.card {
+  width: 25%;
 }
 
-.picDiv{
+.picDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.picDiv img {
+  display: flex;
+  justify-self: center;
+  border-radius: 50% 75%;
+}
+.nameDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.emailDiv{
     display: flex;
     justify-content: center;
 }
 
-img{display: flex;
-    justify-self: center;
-border-radius: 50% 75%;
+.emailDiv p{
+    color: rgb(0, 4, 255);
 }
