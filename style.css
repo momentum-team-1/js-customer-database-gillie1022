@@ -1,0 +1,18 @@
+.surface{
+    display: flex;
+    flex-flow: wrap;
+}
+
+.card{
+    width: 25%;
+}
+
+.picDiv{
+    display: flex;
+    justify-content: center;
+}
+
+img{display: flex;
+    justify-self: center;
+border-radius: 50% 75%;
+}
