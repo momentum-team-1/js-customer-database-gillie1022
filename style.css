@@ -22,11 +22,30 @@
   justify-content: center;
 }
 
-.emailDiv{
+.emailDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.emailDiv p {
+  color: rgb(0, 4, 255);
+}
+
+.streetDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.cityStateZipDiv{
     display: flex;
     justify-content: center;
 }
 
-.emailDiv p{
-    color: rgb(0, 4, 255);
+.dobDiv{
+  display: flex;
+  justify-content: center;
+}
+.customerSinceDiv{
+  display: flex;
+  justify-content: center;
 }
