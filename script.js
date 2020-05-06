@@ -63,13 +63,15 @@ for (let customer of customers) {
   // add div to card
   let dobDiv = document.createElement("div");
   dobDiv.classList.add("dobDiv");
-  dobDiv.innerHTML = `<p>${"DOB: " + moment(customer.dob).format("MMM D, YYYY")}</p>`;
+  dobDiv.innerHTML = `<p>DOB: ${moment(customer.dob).format(
+    "MMM D, YYYY"
+  )}</p>`;
   card.appendChild(dobDiv);
   // add customerSince div
   let customerSinceDiv = document.createElement("div");
   customerSinceDiv.classList.add("customerSinceDiv");
-  customerSinceDiv.innerHTML = `<p>${
-    "Customer since: " + moment(customer.registered).format("MMM D, YYYY")
-  }</p>`;
+  customerSinceDiv.innerHTML = `<p>Customer since: ${moment(
+    customer.registered
+  ).format("MMM D, YYYY")}</p>`;
   card.appendChild(customerSinceDiv);
 }
