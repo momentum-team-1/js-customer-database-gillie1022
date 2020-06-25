@@ -1,0 +1,78 @@
+body{
+  font-family: "Hind";
+}
+header{
+  font-size: 2.5vw;
+}
+
+p{
+  font-size: 1.25vw;
+  margin: 0em;
+}
+
+.board {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.card {
+  width: 25%;
+}
+
+.picDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.picDiv img {
+  display: flex;
+  justify-self: center;
+  border-radius: 50% 75%;
+  width: 50%
+}
+.nameDiv {
+  display: flex;
+  justify-content: center;
+}
+.nameDiv h2{
+  margin: 0em;
+  font-size: 2.25vw;
+}
+
+.emailDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.emailDiv p {
+  color: rgb(80, 78, 78);
+  margin: 0em;
+}
+
+.streetDiv {
+  display: flex;
+  justify-content: center;
+}
+.streetDiv p{
+  margin-top: 0.3em;
+}
+
+.cityStateZipDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.dobDiv{
+  display: flex;
+  justify-content: center;
+}
+.dobDiv p{
+  margin-top: 0.3em;
+}
+.customerSinceDiv{
+  display: flex;
+  justify-content: center;
+}
+.customerSinceDiv p{
+  margin-bottom: 2em;
+}
